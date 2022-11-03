@@ -1,20 +1,20 @@
 <template>
-    <RestaurantCard/>
+  <img alt="Vue logo" src="./assets/logo.png">
+  <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import RestaurantCard from './components/RestaurantCard.vue'
+import HelloWorld from './components/HelloWorld.vue'
+
 export default {
   name: 'App',
   components: {
-    RestaurantCard
+    HelloWorld
   }
 }
 </script>
 
 <style>
-@import url('./style/reset.css');
-@import url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc4.woff2);
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
