@@ -1,15 +1,13 @@
 <template>
-  <RestaurantCard />
+  <TheHome />
+  <div id="app">
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
-import RestaurantCard from "./components/RestaurantCard.vue";
-
 export default {
   name: 'App',
-  components: {
-    RestaurantCard
-  }
 }
 </script>
 
