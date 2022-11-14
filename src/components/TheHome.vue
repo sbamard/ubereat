@@ -5,8 +5,8 @@
 
             <div class="wrapper--input">
                 <input v-model="user_search_restaurant" type="text" placeholder="De quoi avez vous envie ?">
-                <div class="search">
-                    <router-link to="/src/pages/TheRestaurant.vue">
+                <div class="search"></div>
+                    <router-link to="TheRestaurant">
                         <div v-for="(restaurant, index) in search_restaurant" :key="index"
                             class="container--restaurant--search">
                             <div class="wrapper--img">
